@@ -1,0 +1,64 @@
+/* Write your CSS here */
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+.image-container {
+  order: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+    order: 1;
+  }
+}
+
+.input {
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: skyblue;
+  border-radius: 8px;
+  padding: 10px;
+  color: black;
+}
+
+button {
+  background-color: skyblue;
+  border: none;
+  width: 120px;
+  height: 35px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.custom-hr {
+  width: 100%;
+  margin: 10px;
+  border: 1px solid grey;
+}
+
+.span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.ul {
+  list-style-type: none;
+}

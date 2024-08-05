@@ -1,0 +1,72 @@
+/* Define classes for initials background colors */
+.initial-container {
+  width: 45px; /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  border-radius: 50%; /* Makes the background circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px; /* Space between initial and comment text */
+  color: white; /* Text color for better contrast */
+  font-size: 20px; /* Adjust font size as needed */
+  font-weight: bold;
+}
+
+.amber {
+  background-color: #f59e0b;
+}
+.blue {
+  background-color: #0b69ff;
+}
+.orange {
+  background-color: #f97316;
+}
+.emerald {
+  background-color: #10b981;
+}
+.teal {
+  background-color: #14b8a6;
+}
+.red {
+  background-color: #b91c1c;
+}
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Other CSS styles */
+.name-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+}
+
+.name {
+  margin: 10px;
+}
+
+.date {
+  margin: 10px;
+  align-self: center;
+}
+
+.button {
+  background-color: transparent;
+}
+
+.comment-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.like-icon {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  margin-right: 10px;
+}
+.like {
+  align-self: center;
+}
